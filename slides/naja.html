@@ -1,0 +1,19 @@
+<h2>naja</h2>
+
+<svg id='svg' height='400'>
+
+    </svg>
+
+    <script>
+        var s = Snap('svg');
+var bigCircle = s.circle(150, 150, 100);
+bigCircle.attr({
+    fill: '#bada55',
+    stroke: '#000',
+    strokeWidth: 5
+});
+
+bigCircle.drag();
+bigCircle.animate({r:10},1000);
+
+        </script>
